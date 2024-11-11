@@ -1,0 +1,7 @@
+{
+  "name": "hydroponic-chamber",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
