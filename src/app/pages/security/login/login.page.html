@@ -1,0 +1,19 @@
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <ion-item>
+            <ion-input label="Usuario" placeholder="Intruduzca su usuario"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="Contraseña" placeholder="Intruduzca su contraseña"></ion-input>
+          </ion-item>
+          </ion-list>
+        <div>
+          <ion-button (click)="login()" expand="block">Login</ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
